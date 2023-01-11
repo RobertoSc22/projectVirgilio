@@ -1,2 +1,4 @@
 # projectVirgilio
-A little project in c++ that generate random password.
+A little project in c++ that generates random password.
+
+
