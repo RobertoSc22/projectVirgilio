@@ -35,7 +35,7 @@ int main(){
 
 	//new vector
 	for(int i=0; i<dimPassword; i++){
-		vector[i]= rand() % 66; // range value 0-65
+		vector[i]= rand() % 88; // range value 0-87
 	}
 	printVector(dimPassword);
 	createPassword(dimPassword);
@@ -273,6 +273,72 @@ void createPassword(int &dimPassword){
 		}
 		if(vector[i] == 65){
 			cout<<":";
+		}
+		if(vector[i] == 66){
+			cout<<".";
+		}
+		if(vector[i] == 67){
+			cout<<",";
+		}
+		if(vector[i] == 68){
+			cout<<";";
+		}
+		if(vector[i] == 69){
+			cout<<":";
+		}
+		if(vector[i] == 70){
+			cout<<"@";
+		}
+		if(vector[i] == 71){
+			cout<<"!";
+		}
+		if(vector[i] == 72){
+			cout<<".";
+		}
+		if(vector[i] == 73){
+			cout<<"_";
+		}
+		if(vector[i] == 74){
+			cout<<"0";
+		}
+		if(vector[i] == 75){
+			cout<<"1";
+		}
+		if(vector[i] == 76){
+			cout<<"2";
+		}
+		if(vector[i] == 77){
+			cout<<"3";
+		}
+		if(vector[i] == 78){
+			cout<<"4";
+		}
+		if(vector[i] == 79){
+			cout<<"5";
+		}
+		if(vector[i] == 80){
+			cout<<"6";
+		}
+		if(vector[i] == 81){
+			cout<<"7";
+		}
+		if(vector[i] == 82){
+			cout<<"8";
+		}
+		if(vector[i] == 83){
+			cout<<"9";
+		}
+		if(vector[i] == 84){
+			cout<<"$";
+		}
+		if(vector[i] == 85){
+			cout<<"&";
+		}
+		if(vector[i] == 86){
+			cout<<"@";
+		}
+		if(vector[i] == 87){
+			cout<<".";
 		}
 	}
 	cout<<endl<<endl<<endl;
